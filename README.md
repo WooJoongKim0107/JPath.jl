@@ -12,11 +12,17 @@ julia> j"dotfiles/zshrc"
 
 ## Installation
 
-Not yet registered in the Julia General Registry. Install directly from GitHub:
+Install from Julia General Registry:
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/WooJoongKim0107/ProjPath.jl")
+Pkg.add("ProjPath")
+```
+
+or install directly from GitHub:
+
+```julia
+Pkg.add(url="https://github.com/WooJoongKim0107/ProjPath.jl.git")
 ```
 
 ## Setup
